@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="src/styles.css">
+	<title>Adventure for the End of the World</title>
+</head>
+<body>
+	<div id="contanier">
+		<div id="text"><p id="text-box">- Welcome to the text based adventure <i>Adventure for the End of the World</i> made by Jack Gonser. This adventure places you inside the shoes of a scientist who resides in Dallas, Texas. You have been contacted to develop a government project that will destroy all of the Asian countries due to the threat that our current president, Donald Trump has identified. You get to chose how this situation plays out with many endings. Choose wisely as this games does not forgive or forget. Have fun protecting or ending the world!</p></div>
+		<div id="stats"><p id="stats-box">Health: 100  Strength: 100 Day: 1 Hour: 0</p></div>
+		<div id="buttons"><button id="button-1" onclick="a();">Start</button><button id="button-2" onclick="b();"></button></div>
+		<button id="button-3" onclick="reset();">Reset</button>
+		<span id="form"><form><INPUT TYPE="text" NAME="inputbox" VALUE="" autocomplete="off" width="240px"><INPUT TYPE="button" NAME="button" Value="Submit" onClick="textResponse(this.form)"></form></span>
+		<img src="src/usaFlag.png" id="usa-flag" width="60%" height="40%">
+		<img src="src/canada.png" id="canada-flag" width="60%" height="40%">
+		<p style="text-align: center;">&copy;Jack Gonser 2017</p>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="src/app.js"></script>
+</body>
+</html>
